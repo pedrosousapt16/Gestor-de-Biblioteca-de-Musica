@@ -1,7 +1,7 @@
 module Funcoes where
 
 import Model
-import Model (Playlist)
+
 
 
 duracaoTotal :: Biblioteca -> Int 
