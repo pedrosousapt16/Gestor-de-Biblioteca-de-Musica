@@ -12,7 +12,7 @@ data Musica = Musica{
         genero      :: Genero ,
         duracao     :: Int ,   
         ano         :: Int ,
-        avaliacao   :: Int ,
+        avaliacao   :: Maybe Int ,
         reproducoes :: Int
 }deriving (Show, Eq)
 
