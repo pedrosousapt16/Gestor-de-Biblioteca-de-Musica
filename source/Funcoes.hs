@@ -68,7 +68,7 @@ formatoDuracao m
         seg = (duracao m) `mod` 60
         mins = (duracao m) `div` 60
 
-duracaoPlaylist:: Playlist -> Int -- (tempo em segundos mudar depois para por em formato) 
+duracaoPlaylist:: Playlist -> Int 
 duracaoPlaylist (Playlist _ lista ) = duracaoTotal lista
 
 contaMusicas:: Biblioteca -> Int 
