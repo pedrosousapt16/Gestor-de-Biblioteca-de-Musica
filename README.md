@@ -36,22 +36,36 @@ Funções principais
 Função	                Descrição
 
 duracaoTotal	        soma das durações de uma biblioteca (segundos)
+
 procuraId	            procura uma música pelo id (Maybe Musica)
+
 removeMusica	        remove a música com o id dado
+
 adicionaMusica	        adiciona uma música (ignora ids repetidos)
+
 nMusicaPorArtista	    número de músicas de um artista
+
 musicaDoGenero	        músicas de um dado género
+
 listaTitulos	        lista dos títulos
+
 totalReproducoes	    total de reproduções
+
 maisOuvida	            música mais ouvida (Nothing se vazia)
+
 mostrarAvalia	        texto com a avaliação de uma música
-formatoDuracao	        duração de uma música no formato m:ss
+
+formatoDuracao	        duração de uma música no formato min:seg
+
 duracaoPlaylist	        duração total de uma playlist
+
 contaMusicas	        número de músicas de uma biblioteca
+
 contaMusicasDePlaylist	número de músicas de uma playlist
 
 Exemplos de utilização
 duracaoTotal bibliotecaGeral resultado: 1091
+
 formatoDuracao m1 resultado: "4:51"
 
 
